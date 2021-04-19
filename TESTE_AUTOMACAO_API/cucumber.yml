@@ -1,0 +1,10 @@
+---
+default: --publish-quiet -p html -p ci -p adm
+
+ci: --format progress
+bdd: --format pretty
+
+html: --format html --out=screenshots/Relatorio.html
+
+adm: ENVIRONMENT=adm
+
